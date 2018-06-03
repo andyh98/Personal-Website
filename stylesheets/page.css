@@ -1,0 +1,81 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-weight: normal;
+}
+
+
+.bio{
+	position: relative;
+	color: white;
+	font-size: 14pt;
+}
+
+.backpic{
+	-webkit-filter: blur(6px) ;
+	filter: blur(6px);
+	max-width: 100%;
+	max-height: 10%;
+}
+
+
+.contact {
+
+	position: absolute; /*element can be place anywhere on the page*/
+	left: 100px;
+	top: 30px; 
+}
+
+.welcome {
+	width: 400px;
+	padding: 5px;
+	background-color:  #737373;
+
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border: 5px solid #333333;
+	text-align: center;
+
+	position:absolute;
+	right: 200px;
+	top: 80px;
+
+	
+
+
+}
+
+a{
+	-webkit-transition: color 0.25s; /* Safari */
+    transition: color 0.25s;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+	color:blue;
+}
+
+/*Canvas for creating 2d art */
+
+canvas{
+/*	border: 2px solid grey;*/
+}
+
+hr{
+	  display: block;
+    height: 3px;
+    border: 0;
+    border-top: 1px solid black;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+nav{
+	color:white;
+	position: absolute;
+	bottom: 30px;
+	right: 50px;
+	text-align: center;
+}
