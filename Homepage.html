@@ -1,40 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<title>Andy Hameed Homepage</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
 	<link href="stylesheets/page.css" rel="stylesheet" type="text/css">
+	<link href="stylesheets/animate.css" rel="stylesheet" type="text/css">
+	<link href="stylesheets/introbox.css" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Cinzel|Domine|Exo|IBM+Plex+Serif|Old+Standard+TT|Philosopher|Poiret+One|Ubuntu+Condensed" rel="stylesheet">
+	<link href="stylesheets/response.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="myscript.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
 </head>
+
 <body>
-		<div class="bio">
-			<img class="backpic" src="images/beach.jpg" alt="Beach" >
-			<div class="contact">
-			<h1> Andy Hameed </h1>
-			<p>Software Engineering and Management III <br>
-	 McMaster University <br>
-	 Hamilton, Ontario </p>
-	 		</div>
+	<div class="bio">
+		<h1> Andy Hameed </h1>
+		<p>Software Engineering CO-OP III <br> McMaster University <br> Hamilton, Ontario </p>
+		<button type="button" class="btn btn-danger" name="button"></button>
+	</div>
 
-	 	<div class="welcome">
-	 		<div>
-	 		<h2> Welcome to My Homepage! </h2>
-	 		<canvas id="MyLine" width="100" height="100"></canvas>
-	 		</div>
-	 	</div>
+	<!-- <div class="welcome">
+		<div>
+			<h2> Welcome to My Homepage! </h2>
+			<canvas id="MyLine"></canvas>
+		</div>
+	</div> -->
 
-	 		<nav>
-	 		<h3>Contact me </h3>
-	 		<a href="https://www.linkedin.com/in/andyhameed/" target="_blank">LinkedIn</a>
-	 		<br>
-	 		<a href="http://github.com/andyh98" target="_blank">Github</a>
-	 	</nav>
+	<div class="sidebar">
 
-	 </div>
+		<div class="sidebar_header">
+		<h2> Andy Hameed </h2>
+		</div>
 
 
-	 <!-- jqeury library -->
-	 <script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
+
+
+		  <a target="_blank" href="http://www.bramlib.on.ca/"><div class="tease_box"></div></a>
+
+		 <div class="Intro_div">
+			 <img class="profile" src="images/web_profile.png" alt="">
+
+		 	<p class="Intro">Welcome to my homepage! A little bit about me: I'm currently enrolled in Software
+			Engineering at McMaster University. I have a passion for front-end development
+		  and software development in general, along with an affinity for many subjects
+		  and a passion for lifelong learning. </p>
+
+			<!-- <div class="next">
+				<p>Next</p>
+			</div> -->
+		 </div>
+
+
+	<object >
+		<embed src="images/line_anim.svg" class="line">
+	</object>
+
+		<div class="contact">
+			<nav>
+				<h3>Contact me </h3>
+				<a href="https://www.linkedin.com/in/andyhameed/" target="_blank">LinkedIn</a>
+				<br>
+				<a href="http://github.com/andyh98" target="_blank">Github</a>
+			</nav>
+		</div>
+	</div>
+
+
+	<!-- jqeury library -->
+	<script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
 	<script src="javascripts/home.js"></script>
 </body>
+
 </html>

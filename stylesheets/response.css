@@ -1,0 +1,18 @@
+@media (max-height: 600px){
+	.line{
+		display: none;
+	}
+	.profile{
+    width: 10vw;
+    height: 10vw;
+	}
+}
+
+@media (max-width: 830px){
+
+  .sidebar{
+    width:100%;
+    display: block;
+  }
+
+}
